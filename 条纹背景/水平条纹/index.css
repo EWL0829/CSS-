@@ -1,0 +1,28 @@
+/*
+* @Author: liyue
+* @Date:   2018-06-20 17:14:52
+* @Last Modified by:   EWL
+* @Last Modified time: 2018-06-20 17:50:01
+*/
+.wrapper {
+    width: 400px;
+    height: 400px;
+    background: #655;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    /* 借助border可以看到非重复平铺的时候整个div的情况 */
+    border: 1px solid #fff;
+    /*background: linear-gradient(red 50%, pink 50%) no-repeat;*/
+    /*background: linear-gradient(red 50%, pink 50%);*/
+    /* 上下两句代码是一样的作用，都可以形成等宽的水平条纹 */
+    /*background: linear-gradient(red 50%, pink 0);    */
+
+    /* 等宽三色条纹 */
+    /*background: linear-gradient(red 33.3%, pink 0, pink 66.6%, blue 0);*/
+
+    /* 等宽四色条纹 */
+    background: linear-gradient(to right, red 25%, pink 0, pink 50%, blue 0, blue 75%, white 0);
+    background-size: 50px 100%;
+}

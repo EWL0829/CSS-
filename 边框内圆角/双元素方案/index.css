@@ -1,0 +1,17 @@
+/*
+* @Author: liyue
+* @Date:   2018-06-20 15:52:39
+* @Last Modified by:   EWL
+* @Last Modified time: 2018-06-20 15:56:36
+*/
+.something-meaningful {
+    width: 250px;
+    background: #655;
+    padding: .8em;/*16*0.8=12.8px*/
+}
+.something-meaningful > div {
+    background: tan;
+    border-radius: .8em;
+    padding: 1em;
+
+}

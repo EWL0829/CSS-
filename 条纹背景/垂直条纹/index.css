@@ -1,0 +1,15 @@
+/*
+* @Author: liyue
+* @Date:   2018-06-20 17:51:31
+* @Last Modified by:   EWL
+* @Last Modified time: 2018-06-20 17:55:41
+*/
+.box {
+    width: 200px;
+    height: 200px;
+    /* 垂直三色条纹 */
+    /*background: linear-gradient(to right, red 33.3%, yellowgreen 0, yellowgreen 66.6%, white 0);*/
+    /* 垂直四色条纹 */
+    background: linear-gradient(to right, red 25%, pink 0, pink 50%, yellowgreen 0, yellowgreen 75%, white 0);
+    background-size: 30px 100%;
+}

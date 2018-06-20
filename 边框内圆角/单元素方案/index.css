@@ -1,0 +1,16 @@
+/*
+* @Author: liyue
+* @Date:   2018-06-20 15:58:53
+* @Last Modified by:   EWL
+* @Last Modified time: 2018-06-20 17:14:26
+*/
+.box {
+    width: 250px;
+    background: tan;
+    border-radius: .8em;
+    padding: 1em;
+    color: white;
+    /* 见《CSS揭秘》27页，计算box-shadow遮挡的宽度 */
+    box-shadow: 0 0 0 .32em #655;
+    outline: .6em solid #655;
+}
