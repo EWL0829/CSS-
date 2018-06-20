@@ -1,0 +1,17 @@
+/*
+* @Author: liyue
+* @Date:   2018-06-20 15:22:06
+* @Last Modified by:   EWL
+* @Last Modified time: 2018-06-20 15:26:37
+*/
+
+/* 当我们需要背景图片距离border的边距为padding时，可以使用background-origin为content-box来免去多次书写position中right/bottom数值的情况 */
+.box {
+    width: 800px;
+    height: 500px;
+    /* 每次修改时只需要修改一处 */
+    padding: 20px;
+    background: url(../imgs/bg-img.png) no-repeat #ddd bottom right;
+    /*background-position: right 10px bottom 10px;*/
+    background-origin: content-box;
+}

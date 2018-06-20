@@ -1,0 +1,17 @@
+/*
+* @Author: liyue
+* @Date:   2018-06-20 13:39:20
+* @Last Modified by:   EWL
+* @Last Modified time: 2018-06-20 13:55:01
+*/
+body {
+    background: red;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border: 10px dashed hsla(0, 0%, 100%, .5);
+    background: pink;
+    background-clip: padding-box;
+}

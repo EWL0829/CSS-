@@ -1,0 +1,14 @@
+/*
+* @Author: liyue
+* @Date:   2018-06-20 14:56:56
+* @Last Modified by:   EWL
+* @Last Modified time: 2018-06-20 15:04:05
+*/
+.box {
+    width: 200px;
+    height: 200px;
+    background: yellowgreen;
+    border: 10px solid #655;
+    outline: 5px solid deeppink;
+
+}

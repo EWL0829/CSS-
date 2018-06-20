@@ -1,0 +1,13 @@
+/*
+* @Author: liyue
+* @Date:   2018-06-20 15:11:53
+* @Last Modified by:   EWL
+* @Last Modified time: 2018-06-20 15:19:23
+*/
+/* 回退方案：当浏览器不支持background-position的扩展语法的时候可以使用 */
+.box {
+    width: 800px;
+    height: 500px;
+    background: url(../imgs/bg-img.png) no-repeat right bottom #ddd;
+    background-position: right 20px bottom 10px;    
+}

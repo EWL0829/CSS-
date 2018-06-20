@@ -1,0 +1,16 @@
+/*
+* @Author: liyue
+* @Date:   2018-06-20 13:55:33
+* @Last Modified by:   EWL
+* @Last Modified time: 2018-06-20 14:32:09
+*/
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    background: yellowgreen;
+    /*box-shadow: 0 0 0 20px #655;*/
+    /* 当元素上绑定有点击事件的时候，点击box-shadow部分是没有反应的，所以需要将shadow部分折为inset，表示这是元素的一部分*/
+    box-shadow: 0 0 0 20px #655 inset;
+    padding: 20px;
+}
